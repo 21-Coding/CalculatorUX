@@ -1,6 +1,11 @@
-var add = function(number1, number2) {
-	return number1 + number2;
-}
-var number1 = parseInt(prompt("Enter a number:"));
-var number2 = parseInt(prompt("Enter another number:"));
-alert(add(number1, number2));
+$(document).ready(function(){
+
+	var add = function(pickle, number2) {
+		return pickle + number2;
+	}
+
+
+
+	console.log(add(1,6));
+
+});

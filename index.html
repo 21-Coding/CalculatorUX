@@ -1,10 +1,104 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Calculator</title>
   </head>
   <body>
-    <h1>Calculator</h1>
-    <script src="js/scripts.js"></script>
+    <div class="container">
+      <h1>Calculator</h1>
+      <form>
+        <div class="form-row">
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">(</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">)</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">%</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-danger" type="button" name="button">AC</button>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">7</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">8</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">9</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">÷</button>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">4</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">5</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">6</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">x</button>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">1</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">2</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">3</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">-</button>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">0</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">.</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">=</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-secondary" type="button" name="button">+</button>
+          </div>
+        </div>
+
+      </form>
+      <div class="card text-center">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3 class="result-num">0</h3>
+          </div>
+          <div class="col-sm-4">
+            <h3 class="result-num">+</h3>
+          </div>
+          <div class="col-sm-4">
+            <h3 class="result-num">0</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card text-center">
+        <h1>0</h1>
+      </div>
+    </div>
   </body>
 </html>
